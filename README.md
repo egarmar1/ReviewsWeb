@@ -1,4 +1,4 @@
-# VideogamesShop
+# GameCritic
 GameCritic is a fictional website where you can review different videogames.
 
 ## Register

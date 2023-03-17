@@ -1,0 +1,181 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+body{
+    background-image: url('/img/background.jpg');
+   
+    background-color: black;
+    
+
+}
+.navbar{
+    background-color:black;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #000;
+  font-weight: bold;
+}
+.avatar{
+
+    border-radius: 900px;
+    float:left;
+    display: block;
+    width: 55px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+    margin-left: 50px;
+
+}
+
+.avatar-profile{
+    margin-left: 0px;
+    border-radius: 0px;
+    width: 100px;
+}
+
+.pub_game .description{
+    
+    padding: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+
+}
+.pub_game .info{
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.pub_game .image-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+
+.pub_game .card-body{
+    padding:0px;
+}
+
+
+.rating-wrap{
+	float:left;
+}
+
+
+/*PROFILE*/
+.profile-user .container-avatar{
+    border-radius: 900px;
+    height: 200px;
+    overflow: hidden;
+    float:left;
+}
+
+.profile-user .container-avatar img{
+    height: 100%;
+    width: 100%;
+}
+
+.profile-user .user-info{
+    float:left;
+    padding-left: 20px;
+}
+
+/*styling star rating*/
+
+.rating > input{
+	display: none;
+}
+
+.rating > label:before{
+	content: '\f005';
+	font-family: FontAwesome;
+	margin: 5px;
+	font-size: 1.5rem;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.rating > .half:before{
+	content: '\f089';
+	position: absolute;
+	cursor: pointer;
+}
+
+
+.rating > label{
+	color: #ddd;
+	float: right;
+	cursor: pointer;
+}
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label{
+	color: #F2EF24;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label{
+	color: #F2EF24;
+}
+
+.rating-done > input{
+	display: none;
+}
+
+.rating-done > label:before{
+	content: '\f005';
+	font-family: FontAwesome;
+	margin: 5px;
+	font-size: 1.5rem;
+	display: inline-block;
+}
+
+.rating-done > .half:before{
+
+	position: absolute;
+}
+
+
+.rating-done > label{
+	color: #ddd;
+	float: right;
+}
+
+.rating-done > input:checked ~ label{
+	color: #F2EF24;
+}
+
+
+
+.comment-rating{
+    float:left;
+    
+}
+.comments p{
+    margin-bottom: 2px;
+    border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.likes{
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
+
+}
+
+.likes img{
+    width: 20px;
+}
+
+
